@@ -553,7 +553,7 @@ function $(e, m, h, g, _, v) {
 			_: 1
 		}, 8, ["onClick"]), s(x, {
 			color: "primary",
-			variant: "flat",
+			variant: "tonal",
 			onClick: v.copySecret
 		}, {
 			default: f(() => [o(d(e.$pgettext("webhooks", "Copy secret")), 1)]),
@@ -562,8 +562,7 @@ function $(e, m, h, g, _, v) {
 			_.selected ? (l(), n(x, {
 				key: 0,
 				class: "btn-test order-first",
-				color: "warning",
-				variant: "tonal",
+				variant: "outlined",
 				disabled: _.saving || !_.server.enabled,
 				loading: _.testing,
 				onClick: m[6] ||= (e) => v.ping(_.selected),
@@ -581,7 +580,7 @@ function $(e, m, h, g, _, v) {
 			}, 8, ["onClick"]),
 			s(x, {
 				color: "primary",
-				variant: "flat",
+				variant: "tonal",
 				disabled: _.testing || !_.events.length || !_.selected && !v.validUrl(_.url),
 				loading: _.saving && !_.testing,
 				onClick: v.save
