@@ -6,281 +6,273 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
-"Language: fi\n"
+"Language: km\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: src/strings.js:9
 msgctxt "webhooks"
 msgid "Webhooks"
-msgstr "Webhookit"
+msgstr "Webhook"
 
 #: src/views/WebhookList.vue:147
 msgctxt "webhooks"
 msgid "Webhooks are disabled by the server configuration, no events are sent"
-msgstr ""
-"Palvelimen määritys on poistanut webhookit käytöstä, tapahtumia ei lähetetä"
+msgstr "Webhook ត្រូវបានបិទដោយការកំណត់របស់ម៉ាស៊ីនមេ ដូច្នេះគ្មានព្រឹត្តិការណ៍ត្រូវបានផ្ញើទេ"
 
 #: src/views/WebhookList.vue:154
 msgctxt "webhooks"
 msgid "All deliveries are blocked by the server configuration"
-msgstr "Palvelimen määritys estää kaikki toimitukset"
+msgstr "ការបញ្ជូនទាំងអស់ត្រូវបានរារាំងដោយការកំណត់របស់ម៉ាស៊ីនមេ"
 
 #: src/views/WebhookList.vue:183
 msgctxt "webhooks"
 msgid "Status"
-msgstr "Tila"
+msgstr "ស្ថានភាព"
 
 #: src/views/WebhookList.vue:187
 msgctxt "webhooks"
 msgid "All"
-msgstr "Kaikki"
+msgstr "ទាំងអស់"
 
 #: src/views/WebhookList.vue:192 src/views/WebhookList.vue:682
 #: src/views/WebhookList.vue:766 src/views/WebhookList.vue:770
 msgctxt "webhooks"
 msgid "Active"
-msgstr "Aktiivinen"
+msgstr "សកម្ម"
 
 #: src/views/WebhookList.vue:197 src/views/WebhookList.vue:683
 msgctxt "webhooks"
 msgid "Inactive"
-msgstr "Ei-aktiivinen"
+msgstr "អសកម្ម"
 
 #: src/views/WebhookList.vue:250
 msgctxt "webhooks"
 msgid "Error fetching webhooks"
-msgstr "Virhe webhookien noutamisessa"
+msgstr "មានកំហុសក្នុងការទាញយក Webhook"
 
 #: src/views/WebhookList.vue:314
 msgctxt "webhooks"
 msgid "Error saving webhook"
-msgstr "Virhe webhookin tallentamisessa"
+msgstr "មានកំហុសក្នុងការរក្សាទុក Webhook"
 
 #: src/views/WebhookList.vue:319
 msgctxt "webhooks"
 msgid ""
 "Rotate the secret of this webhook? Receivers must be updated with the new "
 "secret."
-msgstr ""
-"Vaihdetaanko tämän webhookin salaisuus? Vastaanottajat on päivitettävä "
-"käyttämään uutta salaisuutta."
+msgstr "ប្តូរសោសម្ងាត់របស់ Webhook នេះឬ? អ្នកទទួលត្រូវធ្វើបច្ចុប្បន្នភាពដោយប្រើសោសម្ងាត់ថ្មី។"
 
 #: src/views/WebhookList.vue:338
 msgctxt "webhooks"
 msgid "Error rotating webhook secret"
-msgstr "Virhe webhookin salaisuuden vaihtamisessa"
+msgstr "មានកំហុសក្នុងការប្តូរសោសម្ងាត់របស់ Webhook"
 
 #: src/views/WebhookList.vue:358
 msgctxt "webhooks"
 msgid "Test event delivered"
-msgstr "Testitapahtuma toimitettu"
+msgstr "បានបញ្ជូនព្រឹត្តិការណ៍សាកល្បង"
 
 #: src/views/WebhookList.vue:364 src/views/WebhookList.vue:371
 msgctxt "webhooks"
 msgid "Test event failed"
-msgstr "Testitapahtuma epäonnistui"
+msgstr "ព្រឹត្តិការណ៍សាកល្បងបានបរាជ័យ"
 
 #: src/views/WebhookList.vue:412
 msgctxt "webhooks"
 msgid "Error purging webhook"
-msgstr "Virhe webhookin pysyvässä poistamisessa"
+msgstr "មានកំហុសក្នុងការលុប Webhook ជាអចិន្ត្រៃយ៍"
 
 #: src/views/WebhookList.vue:420
 msgctxt "webhooks"
 msgid "Secret copied"
-msgstr "Salaisuus kopioitu"
+msgstr "បានចម្លងសោសម្ងាត់"
 
 #: src/views/WebhookList.vue:425
 msgctxt "webhooks"
 msgid "Unable to copy secret"
-msgstr "Salaisuuden kopiointi epäonnistui"
+msgstr "មិនអាចចម្លងសោសម្ងាត់បានទេ"
 
 #: src/views/WebhookList.vue:434 src/views/WebhookList.vue:469
 msgctxt "webhooks"
 msgid "None"
-msgstr "Ei mitään"
+msgstr "គ្មាន"
 
 #: src/views/WebhookList.vue:447
 msgctxt "webhooks"
 msgid "Connection failed"
-msgstr "Yhteys epäonnistui"
+msgstr "ការតភ្ជាប់បានបរាជ័យ"
 
 #: src/views/WebhookList.vue:448
 msgctxt "webhooks"
 msgid "Access denied"
-msgstr "Pääsy evätty"
+msgstr "ការចូលប្រើត្រូវបានបដិសេធ"
 
 #: src/views/WebhookList.vue:449
 msgctxt "webhooks"
 msgid "Secret can't be decrypted, rotate it"
-msgstr "Salaisuuden salausta ei voi purkaa, vaihda salaisuus"
+msgstr "មិនអាចឌិគ្រីបសោសម្ងាត់បានទេ សូមប្តូរវា"
 
 #: src/views/WebhookList.vue:450
 msgctxt "webhooks"
 msgid "Blocked by server configuration"
-msgstr "Estetty palvelimen määrityksellä"
+msgstr "ត្រូវបានរារាំងដោយការកំណត់របស់ម៉ាស៊ីនមេ"
 
 #: src/views/WebhookList.vue:451 src/views/WebhookList.vue:784
 msgctxt "webhooks"
 msgid "Not a valid URL"
-msgstr "Virheellinen URL-osoite"
+msgstr "មិនមែនជា URL ត្រឹមត្រូវទេ"
 
 #: src/views/WebhookList.vue:452
 msgctxt "webhooks"
 msgid "Queue unavailable"
-msgstr "Jono ei ole käytettävissä"
+msgstr "មិនអាចប្រើជួររង់ចាំបានទេ"
 
 #: src/views/WebhookList.vue:453
 msgctxt "webhooks"
 msgid "Host not found"
-msgstr "Isäntää ei löytynyt"
+msgstr "រកមិនឃើញម៉ាស៊ីន Host ទេ"
 
 #: src/views/WebhookList.vue:454
 msgctxt "webhooks"
 msgid "Response too large"
-msgstr "Vastaus on liian suuri"
+msgstr "ការឆ្លើយតបធំពេក"
 
 #: src/views/WebhookList.vue:455
 msgctxt "webhooks"
 msgid "Request timed out"
-msgstr "Pyyntö aikakatkaistiin"
+msgstr "សំណើបានផុតពេលរង់ចាំ"
 
 #: src/views/WebhookList.vue:460
 msgctxt "webhooks"
 msgid "Redirects aren't followed"
-msgstr "Uudelleenohjauksia ei seurata"
+msgstr "មិនធ្វើតាមការបញ្ជូនបន្តទេ"
 
 #: src/views/WebhookList.vue:461
 msgctxt "webhooks"
 msgid "Delivery failed"
-msgstr "Toimitus epäonnistui"
+msgstr "ការបញ្ជូនបានបរាជ័យ"
 
 #: src/views/WebhookList.vue:523
 msgctxt "webhooks"
 msgid "Send signed notifications when published content changes."
-msgstr "Lähetä allekirjoitettuja ilmoituksia, kun julkaistu sisältö muuttuu."
+msgstr "ផ្ញើការជូនដំណឹងដែលមានហត្ថលេខា នៅពេលមាតិកាដែលបានបោះផ្សាយផ្លាស់ប្តូរ។"
 
 #: src/views/WebhookList.vue:544 src/views/WebhookList.vue:618
 msgctxt "webhooks"
 msgid "Toggle selection"
-msgstr "Vaihda valintaa"
+msgstr "បិទ/បើកការជ្រើសរើស"
 
 #: src/views/WebhookList.vue:563 src/views/WebhookList.vue:655
 msgctxt "webhooks"
 msgid "Purge"
-msgstr "Poista pysyvästi"
+msgstr "លុបជាអចិន្ត្រៃយ៍"
 
 #: src/views/WebhookList.vue:571 src/views/WebhookList.vue:722
 #: src/views/WebhookList.vue:741
 msgctxt "webhooks"
 msgid "Add webhook"
-msgstr "Lisää webhook"
+msgstr "បន្ថែម Webhook"
 
 #: src/views/WebhookList.vue:585
 msgctxt "webhooks"
 msgid "Search for"
-msgstr "Etsi"
+msgstr "ស្វែងរក"
 
 #: src/views/WebhookList.vue:594
 msgctxt "webhooks"
 msgid "Refresh"
-msgstr "Päivitä"
+msgstr "ផ្ទុកឡើងវិញ"
 
 #: src/views/WebhookList.vue:635
 msgctxt "webhooks"
 msgid "Edit"
-msgstr "Muokkaa"
+msgstr "កែសម្រួល"
 
 #: src/views/WebhookList.vue:645
 msgctxt "webhooks"
 msgid "Rotate"
-msgstr "Vaihda"
+msgstr "ប្តូរសោ"
 
 #: src/views/WebhookList.vue:688
 msgctxt "webhooks"
 msgid "Last success"
-msgstr "Viimeisin onnistuminen"
+msgstr "ការបញ្ជូនជោគជ័យចុងក្រោយ"
 
 #: src/views/WebhookList.vue:692
 msgctxt "webhooks"
 msgid "Last error"
-msgstr "Viimeisin virhe"
+msgstr "កំហុសចុងក្រោយ"
 
 #: src/views/WebhookList.vue:699
 msgctxt "webhooks"
 msgid "Paused until"
-msgstr "Tauko päättyy"
+msgstr "ផ្អាករហូតដល់"
 
 #: src/views/WebhookList.vue:709
 msgctxt "webhooks"
 msgid "Loading"
-msgstr "Ladataan"
+msgstr "កំពុងផ្ទុក"
 
 #: src/views/WebhookList.vue:715
 msgctxt "webhooks"
 msgid "No entries found"
-msgstr "Merkintöjä ei löytynyt"
+msgstr "រកមិនឃើញធាតុបញ្ចូលទេ"
 
 #: src/views/WebhookList.vue:716
 msgctxt "webhooks"
 msgid "No webhooks configured."
-msgstr "Webhookeja ei ole määritetty."
+msgstr "មិនទាន់មាន Webhook ត្រូវបានកំណត់ទេ។"
 
 #: src/views/WebhookList.vue:738
 msgctxt "webhooks"
 msgid "Webhook secret"
-msgstr "Webhookin salaisuus"
+msgstr "សោសម្ងាត់របស់ Webhook"
 
 #: src/views/WebhookList.vue:740
 msgctxt "webhooks"
 msgid "Edit webhook"
-msgstr "Muokkaa webhookia"
+msgstr "កែសម្រួល Webhook"
 
 #: src/views/WebhookList.vue:750
 msgctxt "webhooks"
 msgid "Copy this secret now. It will not be shown again."
-msgstr "Kopioi tämä salaisuus nyt. Sitä ei näytetä uudelleen."
+msgstr "ចម្លងសោសម្ងាត់នេះឥឡូវនេះ។ វានឹងមិនត្រូវបានបង្ហាញម្តងទៀតទេ។"
 
 #: src/views/WebhookList.vue:771
 msgctxt "webhooks"
 msgid ""
 "Inactive webhooks receive no events and their queued deliveries are dropped"
-msgstr ""
-"Ei-aktiiviset webhookit eivät vastaanota tapahtumia, ja niiden jonossa "
-"olevat toimitukset hylätään"
+msgstr "Webhook ដែលអសកម្មមិនទទួលព្រឹត្តិការណ៍ទេ ហើយការបញ្ជូនរបស់វាដែលកំពុងរង់ចាំនឹងត្រូវបោះបង់"
 
 #: src/views/WebhookList.vue:780
 msgctxt "webhooks"
 msgid "HTTPS endpoint URL"
-msgstr "HTTPS-päätepisteen URL-osoite"
+msgstr "URL ចំណុចចុង HTTPS"
 
 #: src/views/WebhookList.vue:781
 msgctxt "webhooks"
 msgid "Address receiving the signed events, it cannot be changed later"
-msgstr ""
-"Osoite, joka vastaanottaa allekirjoitetut tapahtumat, sitä ei voi muuttaa "
-"myöhemmin"
+msgstr "អាសយដ្ឋានដែលទទួលព្រឹត្តិការណ៍មានហត្ថលេខា មិនអាចផ្លាស់ប្តូរនៅពេលក្រោយបានទេ"
 
 #: src/views/WebhookList.vue:805
 msgctxt "webhooks"
 msgid "Events"
-msgstr "Tapahtumat"
+msgstr "ព្រឹត្តិការណ៍"
 
 #: src/views/WebhookList.vue:806
 msgctxt "webhooks"
 msgid ""
 "Events sent to the webhook, queued deliveries of removed events are cancelled"
 msgstr ""
-"Webhookiin lähetetyt tapahtumat, poistettujen tapahtumien jonossa olevat "
-"toimitukset peruutetaan"
+"ព្រឹត្តិការណ៍ដែលផ្ញើទៅ Webhook ការបញ្ជូនដែលកំពុងរង់ចាំសម្រាប់ព្រឹត្តិការណ៍ដែលបានដកចេញនឹងត្រូវលុបចោល"
 
 #: src/views/WebhookList.vue:813
 msgctxt "webhooks"
 msgid "Name"
-msgstr "Nimi"
+msgstr "ឈ្មោះ"
 
 #: src/views/WebhookList.vue:814
 msgctxt "webhooks"
@@ -288,104 +280,30 @@ msgid ""
 "Optional name to tell webhooks with the same endpoint apart, visible to all "
 "webhook editors"
 msgstr ""
-"Valinnainen nimi, jolla erottaa saman päätepisteen webhookit toisistaan, "
-"näkyy kaikille webhookien muokkaajille"
+"ឈ្មោះជាជម្រើសសម្រាប់សម្គាល់ Webhook ដែលមានចំណុចចុងដូចគ្នា អាចមើលឃើញដោយអ្នកកែសម្រួល Webhook "
+"ទាំងអស់"
 
 #: src/views/WebhookList.vue:824
 msgctxt "webhooks"
 msgid "Done"
-msgstr "Valmis"
+msgstr "រួចរាល់"
 
 #: src/views/WebhookList.vue:827
 msgctxt "webhooks"
 msgid "Copy secret"
-msgstr "Kopioi salaisuus"
+msgstr "ចម្លងសោសម្ងាត់"
 
 #: src/views/WebhookList.vue:840
 msgctxt "webhooks"
 msgid "Test"
-msgstr "Testaa"
+msgstr "សាកល្បង"
 
 #: src/views/WebhookList.vue:843
 msgctxt "webhooks"
 msgid "Cancel"
-msgstr "Peruuta"
+msgstr "បោះបង់"
 
 #: src/views/WebhookList.vue:853
 msgctxt "webhooks"
 msgid "Save"
-msgstr "Tallenna"
-
-#~ msgctxt "webhooks"
-#~ msgid "Purge this webhook?"
-#~ msgstr "Poistetaanko tämä webhook pysyvästi?"
-
-#~ msgctxt "webhooks"
-#~ msgid "Secure connection failed"
-#~ msgstr "Suojattu yhteys epäonnistui"
-
-#~ msgctxt "webhooks"
-#~ msgid ""
-#~ "No queued delivery was processed since %{date}, check the queue worker"
-#~ msgstr ""
-#~ "Jonossa olevia toimituksia ei ole käsitelty %{date} jälkeen, tarkista "
-#~ "jonon käsittelijä"
-
-#~ msgctxt "webhooks"
-#~ msgid "Error replacing webhook destination"
-#~ msgstr "Virhe webhookin kohteen korvaamisessa"
-
-#~ msgctxt "webhooks"
-#~ msgid "Replace"
-#~ msgstr "Korvaa"
-
-#~ msgctxt "webhooks"
-#~ msgid "Replace webhook destination"
-#~ msgstr "Korvaa webhookin kohde"
-
-#~ msgctxt "webhooks"
-#~ msgid "Current destination"
-#~ msgstr "Nykyinen kohde"
-
-#~ msgctxt "webhooks"
-#~ msgid ""
-#~ "Replacing the destination rotates the secret and disables the webhook."
-#~ msgstr ""
-#~ "Kohteen korvaaminen vaihtaa salaisuuden ja poistaa webhookin käytöstä."
-
-#~ msgctxt "webhooks"
-#~ msgid "Send test event"
-#~ msgstr "Lähetä testitapahtuma"
-
-#~ msgctxt "webhooks"
-#~ msgid ""
-#~ "Receivers still using the previous secret will reject deliveries "
-#~ "immediately. Rotate the secret again?"
-#~ msgstr ""
-#~ "Vastaanottajat, jotka käyttävät vielä edellistä salaisuutta, hylkäävät "
-#~ "toimitukset heti. Vaihdetaanko salaisuus uudelleen?"
-
-#~ msgctxt "webhooks"
-#~ msgid "Previous secret valid until"
-#~ msgstr "Edellinen salaisuus voimassa"
-
-#~ msgctxt "webhooks"
-#~ msgid "Value has invalid format"
-#~ msgstr "Arvon muoto on virheellinen"
-
-#~ msgctxt "webhooks"
-#~ msgid "Failures"
-#~ msgstr "Virheet"
-
-#~ msgctxt "webhooks"
-#~ msgid "New webhooks are inactive until you save them as active."
-#~ msgstr ""
-#~ "Uudet webhookit eivät ole aktiivisia, ennen kuin tallennat ne aktiivisina."
-
-#~ msgctxt "webhooks"
-#~ msgid "Actions"
-#~ msgstr "Toimet"
-
-#~ msgctxt "webhooks"
-#~ msgid "Close"
-#~ msgstr "Sulje"
+msgstr "រក្សាទុក"
